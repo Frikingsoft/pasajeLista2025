@@ -9,5 +9,8 @@
 </head>
 <body>
     <h1 class="titulo texto fondo_texto">Pasaje de lista </h1>
+     {{#each menu}}
+        <button>{{ this.nombre }}</button>
+    {{/each}}
 </body>
 </html>
