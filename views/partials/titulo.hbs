@@ -10,7 +10,7 @@
 <body>
     <h1 class="titulo texto fondo_texto">Pasaje de lista </h1>
      {{#each menu}}
-        <button>{{ this.nombre }}</button>
+        <button><a href="{{this.url}}">{{ this.nombre }}</a></button>
     {{/each}}
 </body>
 </html>

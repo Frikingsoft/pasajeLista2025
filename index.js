@@ -12,3 +12,7 @@ router.get("/",(req,res)=>{
 router.get("/login",(req,res)=>{
     res.render("login.hbs",{menu})
 })
+
+router.get("/registro",(req,res)=>{
+     res.render("registro.hbs",{menu})
+})
